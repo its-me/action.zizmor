@@ -33,10 +33,10 @@ jobs:
   zizmor:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: its-me/action.zizmor@52c918723b0bd2be8f1d275ad85b4a0b7ee91e03 # v1.0.0
+      - uses: its-me/action.zizmor@ff06ae628ae4304e6d711c1c61c761b9d097c96e # v1.0.1
 ```
 
 When `advanced-security` resolves to enabled (see below), results are
